@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-# Hey there! I'm [Andrew(https://jasontaylor.dev) 👋
+# Hey there! I'm [Andrew(https://webstean.com) 👋
 <!-- <img src="wave.gif" width="24px"> -->
 ![JasonTaylorDev](aaabanner.png)
 
@@ -15,7 +15,7 @@ I'm a solution architect, trainer, mentor, and full stack developer with 20 year
 
 <a href="https://github.com/webstean">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=webstean&show_icons=true&theme=shades-of-purple&count_private=true" alt="JasonTaylorDev's GitHub Stats" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=webstwN&theme=shades-of-purple&layout=compact" 
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=webstean&theme=shades-of-purple&layout=compact" 
     alt="Andrew Webster GitHub Top Languages" />
 </a>
 
