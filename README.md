@@ -8,7 +8,7 @@
     <a href="https://www.linkedin.com/in/maketechwork/"><img src="https://img.shields.io/badge/-LinkedIn-2D2B55?style=flat-square&logo=linkedin&logoColor=white"/></a>
 </p>
 
-I'm a domain architect, mentor, and cloud advocate with 20 years professional experience. I specialise in desinging and building enterprise applications and solutions, princiapplyin the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined and delivered solution.
+I'm a domain architect, mentor, and cloud advocate with 20 years professional experience. I specialise in desinging and building enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined and deliverable solution.
 
 ## GitHub Stats
 
