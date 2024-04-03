@@ -1,7 +1,7 @@
 ### Hi there 👋
 
-# Hey there! I'm [Andrew(https://webstean.com) 👋
-<!-- <img src="wave.gif" width="24px"> -->
+# Hey there! I'm Andrew 👋
+<!-- <img src="wave.gif" width="26px"> -->
 
 📫 How to reach me:
 <p align="left">
@@ -9,7 +9,7 @@
     <a href="https://www.linkedin.com/in/maketechwork/"><img src="https://img.shields.io/badge/-LinkedIn-2D2B55?style=flat-square&logo=linkedin&logoColor=white"/></a>
 </p>
 
-I'm a domain architect, mentor, and cloud advocate with over 20 years professional experience. I specialise in desinging and building enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined and deliverable solution.
+I am a cloud domain architect, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing and building enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined and deliverable solution.
 
 I live and work in Melbourne, Australia, but over my careeer I have lived and work in Singapore, Japan and USA (North Carolina).
 
