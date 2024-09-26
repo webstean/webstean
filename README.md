@@ -15,13 +15,14 @@ I live and work in Melbourne, Australia, but over my careeer I have lived and wo
 
 [Terraform](https://developer.hashicorp.com/terraform/docs) has been my new favourite bit of tech in the last few years - solves so many problems of those "infra" issues in a simple elegant way.
 
-Looking forward to full Terraform supprt in [AZD](https://github.com/Azure/azure-dev), that will then allow to combine infrastructure provisioning and application deployment in the same GitHub Action / ADO Pipeline, with something like<br>
+Looking forward to full Terraform support in [AZD](https://github.com/Azure/azure-dev), that will then allow to combine infrastructure provisioning and application deployment in the same GitHub Action / ADO Pipeline, with something like<br>
 ```shell
 ## Provision Infrastructure
 azd provision
 ## Deploy Application
 azd deploy
-### or do both, with azd up
+### or do both, with
+azd up
 ```
 
 ## GitHub Stats
