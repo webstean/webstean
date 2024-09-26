@@ -13,6 +13,17 @@ I am a cloud domain architect, mentor, and cloud advocate with over 20 years pro
 
 I live and work in Melbourne, Australia, but over my careeer I have lived and work in Singapore, Japan and USA (North Carolina).
 
+[Terraform][(https://developer.hashicorp.com/terraform/docs) is my new favourite thing - solves so many problems of those "infra" issues in a simple elegant way.
+
+Looking forward to full Terraform supprt in [AZD](https://github.com/Azure/azure-dev), that will then allow to combine infrastructure provisioning and application deployment in the same GitHub Action / ADO Pipeline
+```
+## Provision Infrastructure
+azd provision
+## Deploy Application
+azd deploy
+### or do both, with azd up
+```
+
 ## GitHub Stats
 
 <a href="https://github.com/webstean">
