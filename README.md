@@ -36,14 +36,19 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Some links to icons and other pretty pictures 💬
+# Some links to icons, pretty pictures, and important links 💬
 
+## Microsoft / Azure Icons
 Azure Icons       : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
 Power Platform    : https://learn.microsoft.com/en-us/power-platform/guidance/icons<br>
 Dynamics 365 Icons: https://learn.microsoft.com/en-us/dynamics365/get-started/icons<br>
 M365 Icons        : https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide<br>
 
-Terraform Info    : https://github.com/shuaibiyy/awesome-tf/blob/master/README.md<br>
+## Terraform 
+Terraform Info      : https://github.com/shuaibiyy/awesome-tf/blob/master/README.md<br>
+Provider: Azure     : https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs<br>
+Provider: Entra     : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
+Provider: PPlatform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 
 
 
