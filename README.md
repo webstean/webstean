@@ -61,6 +61,18 @@ Please use OIDC Federation (OpenID Connect) for better security, that way you re
 [Setting up Terraform Entra ID provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/guides/service_principal_oidc)<br>
 [Setting up Terraform Power Platform provider to use OIDC Federation](https://registry.terraform.io/providers/microsoft/power-platform/latest/docs#authenticating-to-power-platform-using-a-service-principal-with-oidc)<br>
 
+```hcl
+## Add a Federation identity for GitHub to an Azure Application Registration
+resource "azuread_application_federated_identity_credential" "example_federation" {
+  display_name   = "fedcred-example-github"
+  application_id = azuread_application.yourapp.id
+  audiences      = ["api://AzureADTokenExchange"]
+  issuer         = "https://token.actions.githubusercontent.com"
+  subject        = "repo:<orgname>/<repo-nanme>:ref:refs/heads/main"
+  description    = "Federated identity for ...."
+}
+```
+
 
 
 
