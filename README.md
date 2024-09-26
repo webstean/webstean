@@ -41,7 +41,7 @@ Here are some ideas to get you started:
 ## Azure Links
 Developer Portal   : https://devportal.microsoft.com<br>
 Azure Portal       : https://portal.azure.com<br>
-*New* Azure Portal : https://newportal.azure.com<br>
+*New* Azure Portal : http://preview.portal.azure.com/<br>
 
 ## Microsoft / Azure Icons
 Azure Icons       : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
