@@ -85,7 +85,7 @@ resource "azuread_application_federated_identity_credential" "example_federation
   ## permission for just the main branch
   subject        = "repo:${each.value.full_name}:ref:refs/heads/main"
   ## permission for the environmnet
-  subject        = "repo:${each.value.full_name}:environment:"${var.environment_name}"
+  subject        = "repo:${each.value.full_name}:environment:${var.environment_name}"
   description    = "Federated identity for ...."
 }
 ```
