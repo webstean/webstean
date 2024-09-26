@@ -38,10 +38,10 @@ Here are some ideas to get you started:
 
 # Some links to icons and other pretty pictures 👋
 
-Azure Icons       : https://learn.microsoft.com/en-us/azure/architecture/icons/
-Power Platform    : https://learn.microsoft.com/en-us/power-platform/guidance/icons
-Dynamics 365 Icons: https://learn.microsoft.com/en-us/dynamics365/get-started/icons
-M365 Icons        : https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide
+Azure Icons       : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
+Power Platform    : https://learn.microsoft.com/en-us/power-platform/guidance/icons<br>
+Dynamics 365 Icons: https://learn.microsoft.com/en-us/dynamics365/get-started/icons<br>
+M365 Icons        : https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide<br>
 
 
 
