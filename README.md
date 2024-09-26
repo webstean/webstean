@@ -90,8 +90,4 @@ resource "azuread_application_federated_identity_credential" "example_federation
 }
 ```
 
-<http:request-config name="validation-service-http-requestor" doc:name="Validation Service HTTP Request configuration" doc:id="abfbe178-0f99-4c79-bc12-d6e42399f924" basePath="${validation-service.basePath}" responseTimeout="${validation-service.timeout.response}">
-        <http:request-connection host="${azure-key-vault-properties-provider::secret::validation-ecss-host}" port="${validation-service.port}" connectionIdleTimeout="${validation-service.timeout.connectionIdle}" protocol="HTTPS"/>
-    </http:request-config>
-
 
