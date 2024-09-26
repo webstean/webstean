@@ -38,6 +38,11 @@ Here are some ideas to get you started:
 
 # Some links to icons, pretty pictures, and important links 💬
 
+## Azure Links
+Developer Portal   : https://devportal.microsoft.com<br>
+Azure Portal       : https://portal.azure.com<br>
+*New* Azure Portal : https://newportal.azure.com<br>
+
 ## Microsoft / Azure Icons
 Azure Icons       : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
 Power Platform    : https://learn.microsoft.com/en-us/power-platform/guidance/icons<br>
