@@ -56,10 +56,10 @@ Provider: Entra     : https://registry.terraform.io/providers/hashicorp/azuread/
 Provider: PPlatform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 
 ## OIDC Federation (Open ID Connect) for Terraform providers **Higlhy Recommended**
-Please use OIDC Federation (OpenID Connect) for better security, that way you require no secrets.
-[Setting up Terraform Azure provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_oidc)
-[Setting up Terraform Entra ID provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/guides/service_principal_oidc)
-[Setting up Terraform Power Platform provider to use OIDC Federation](https://registry.terraform.io/providers/microsoft/power-platform/latest/docs#authenticating-to-power-platform-using-a-service-principal-with-oidc)
+Please use OIDC Federation (OpenID Connect) for better security, that way you require no secrets.<br>
+[Setting up Terraform Azure provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_oidc)<br>
+[Setting up Terraform Entra ID provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/guides/service_principal_oidc)<br>
+[Setting up Terraform Power Platform provider to use OIDC Federation](https://registry.terraform.io/providers/microsoft/power-platform/latest/docs#authenticating-to-power-platform-using-a-service-principal-with-oidc)<br>
 
 
 
