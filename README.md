@@ -76,15 +76,22 @@ Please use OIDC Federation (OpenID Connect) for better security, that way you re
 ```hcl
 ## Add a Federation identity for GitHub to an Azure Application Registration
 resource "azuread_application_federated_identity_credential" "example_federation" {
+  for_each = github_repository.example
+
   display_name   = "fedcred-example-github"
   application_id = azuread_application.yourapp.id
   audiences      = ["api://AzureADTokenExchange"]
   issuer         = "https://token.actions.githubusercontent.com"
-  subject        = "repo:<orgname>/<repo-nanme>:ref:refs/heads/main"
+  ## permission for just the main branch
+  subject        = "repo:${each.value.full_name}:ref:refs/heads/main"
+  ## permission for the environmnet
+  subject        = "repo:${each.value.full_name}:environment:"${var.environment_name}"
   description    = "Federated identity for ...."
 }
 ```
 
-
+<http:request-config name="validation-service-http-requestor" doc:name="Validation Service HTTP Request configuration" doc:id="abfbe178-0f99-4c79-bc12-d6e42399f924" basePath="${validation-service.basePath}" responseTimeout="${validation-service.timeout.response}">
+        <http:request-connection host="${azure-key-vault-properties-provider::secret::validation-ecss-host}" port="${validation-service.port}" connectionIdleTimeout="${validation-service.timeout.connectionIdle}" protocol="HTTPS"/>
+    </http:request-config>
 
 
