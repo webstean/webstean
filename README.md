@@ -51,20 +51,23 @@ Here are some ideas to get you started:
 # Some links to icons, pretty pictures, and important links 💬
 
 ## Azure Links
-Developer Portal   : https://devportal.microsoft.com<br>
-Azure Portal       : https://portal.azure.com<br>
-*New* Azure Portal : http://preview.portal.azure.com/<br>
+Developer Portal       : https://devportal.microsoft.com<br> 
+DevBox Portal          : https://devbox.microsoft.com/<br> 
+Azure Portal           : https://portal.azure.com<br>
+*Preview* Azure Portal : http://preview.portal.azure.com/<br>
+*RC* Azure Portal      : http://rc.portal.azure.com/<br>
 
 ## Microsoft / Azure Icons
-Azure Icons       : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
+Azure             : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
 Power Platform    : https://learn.microsoft.com/en-us/power-platform/guidance/icons<br>
-Dynamics 365 Icons: https://learn.microsoft.com/en-us/dynamics365/get-started/icons<br>
-M365 Icons        : https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide<br>
+Dynamics 365      : https://learn.microsoft.com/en-us/dynamics365/get-started/icons<br>
+Microsoft 365     : https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide<br>
 
 ## Terraform 
-Terraform Info      : https://github.com/shuaibiyy/awesome-tf/blob/master/README.md<br>
+Terraform Awseome   : https://github.com/shuaibiyy/awesome-tf/blob/master/README.md<br>
 Provider: Azure     : https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs<br>
 Provider: Entra     : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
+Provider: AZAPI     : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
 Provider: PPlatform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 
 ## OIDC Federation (Open ID Connect) for Terraform providers **Highly Recommended**
