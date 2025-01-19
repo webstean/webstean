@@ -56,6 +56,8 @@ DevBox Portal          : https://devbox.microsoft.com/<br>
 Azure Portal           : https://portal.azure.com<br>
 *Preview* Azure Portal : http://preview.portal.azure.com/<br>
 *RC* Azure Portal      : http://rc.portal.azure.com/<br>
+APIM                   : https://github.com/Azure/api-management-policy-snippets/blob/master/policy-expressions%2FREADME.md/<br>
+
 
 ## Microsoft / Azure Icons
 Azure             : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
