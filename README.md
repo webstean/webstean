@@ -71,14 +71,14 @@ Provider: Entra     : https://registry.terraform.io/providers/hashicorp/azuread/
 Provider: AZAPI     : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
 Provider: PPlatform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 
-## OIDC Federation (Open ID Connect) for Terraform providers **Highly Recommended**
-Please use OIDC Federation (OpenID Connect) for better security, that way you require no secrets.<br>
+## **Highly Recommended** - OIDC Federation (Open ID Connect) for Terraform providers 
+Please use OIDC Federation (OpenID Connect) for better security, that way you require no secrets or certificatres to expired or get compromised.<br>
 [Setting up Terraform Azure provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_oidc)<br>
 [Setting up Terraform Entra ID provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/guides/service_principal_oidc)<br>
 [Setting up Terraform Power Platform provider to use OIDC Federation](https://registry.terraform.io/providers/microsoft/power-platform/latest/docs#authenticating-to-power-platform-using-a-service-principal-with-oidc)<br>
 
 ```hcl
-## Add a Federation identity for GitHub to an Azure Application 
+## Example: Add a Federation identity for GitHub to an Azure Application 
 resource "azuread_application_federated_identity_credential" "example_federation" {
   for_each = github_repository.example
 
@@ -93,7 +93,7 @@ resource "azuread_application_federated_identity_credential" "example_federation
   subject        = "repo:${each.value.full_name}:environment:${var.environment_name}"
 }
 
-## Add a Federation identity for GitHub to an Azure User Managed Identity (UMI)
+## Example: Add a Federation identity for GitHub to an Azure User Managed Identity (UMI)
 ## This works, even if you don't have the ability to created applications within Entra ID 
 resource "azurerm_federated_identity_credential" "example_federation" {
   for_each = github_repository.example
