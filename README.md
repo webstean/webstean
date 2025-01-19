@@ -56,8 +56,7 @@ DevBox Portal          : https://devbox.microsoft.com/<br>
 Azure Portal           : https://portal.azure.com<br>
 *Preview* Azure Portal : http://preview.portal.azure.com/<br>
 *RC* Azure Portal      : http://rc.portal.azure.com/<br>
-APIM                   : https://github.com/Azure/api-management-policy-snippets/blob/master/policy-expressions%2FREADME.md/<br>
-
+APIM CheatSheet        : https://github.com/Azure/api-management-policy-snippets/blob/master/policy-expressions%2FREADME.md/<br>
 
 ## Microsoft / Azure Icons
 Azure             : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
@@ -79,7 +78,7 @@ Please use OIDC Federation (OpenID Connect) for better security, that way you re
 [Setting up Terraform Power Platform provider to use OIDC Federation](https://registry.terraform.io/providers/microsoft/power-platform/latest/docs#authenticating-to-power-platform-using-a-service-principal-with-oidc)<br>
 
 ```hcl
-## Add a Federation identity for GitHub to an Azure Application Registration
+## Add a Federation identity for GitHub to an Azure Application 
 resource "azuread_application_federated_identity_credential" "example_federation" {
   for_each = github_repository.example
 
@@ -87,11 +86,27 @@ resource "azuread_application_federated_identity_credential" "example_federation
   application_id = azuread_application.yourapp.id
   audiences      = ["api://AzureADTokenExchange"]
   issuer         = "https://token.actions.githubusercontent.com"
+  description    = "Federated identity for ...."
   ## permission for just the main branch
   subject        = "repo:${each.value.full_name}:ref:refs/heads/main"
-  ## permission for the environmnet
+  ## permission for the GitHub environmnet
   subject        = "repo:${each.value.full_name}:environment:${var.environment_name}"
-  description    = "Federated identity for ...."
+}
+
+## Add a Federation identity for GitHub to an Azure User Managed Identity (UMI)
+## This works, even if you don't have the ability to created applications within Entra ID 
+resource "azurerm_federated_identity_credential" "example_federation" {
+  for_each = github_repository.example
+
+  name                = "fedcred-example-github"
+  resource_group_name = azurerm_resource_group.example.name
+  audience            = ["api://AzureADTokenExchange"]
+  parent_id           = azurerm_user_assigned_identity.example.id
+  issuer              = "https://token.actions.githubusercontent.com"
+  ## permission for just the main branch
+  subject             = "repo:${each.value.full_name}:ref:refs/heads/main"
+  ## permission for the GitHub environmnet
+  subject             = "repo:${each.value.full_name}:environment:${var.environment_name}"
 }
 ```
 
