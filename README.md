@@ -9,13 +9,13 @@
     <a href="https://www.linkedin.com/in/maketechwork/"><img src="https://img.shields.io/badge/-LinkedIn-2D2B55?style=flat-square&logo=linkedin&logoColor=white"/></a>
 </p>
 
-I am a cloud domain architect, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing and building enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined and deliverable solution.
+I am a cloud architect, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing and building enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined and deliverable solution.
 
 I live and work in Melbourne, Australia, but over my careeer I have lived and work in Singapore, Japan and USA (North Carolina).
 
 [Terraform](https://developer.hashicorp.com/terraform/docs) has been my new favourite bit of tech in the last few years - solves so many problems of those "infra" issues in a simple elegant way.
 
-Looking forward to full Terraform support in [AZD](https://github.com/Azure/azure-dev), that will then allow to combine infrastructure provisioning and application deployment in the same GitHub Action / ADO Pipeline, with something like<br>
+Enjoying full Terraform support in [AZD](https://github.com/Azure/azure-dev), that will then allow combined infrastructure provisioning and application deployment in the same GitHub Action / ADO Pipeline<br>
 ```shell
 ## Provision Infrastructure
 azd provision
