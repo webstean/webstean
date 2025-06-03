@@ -1,0 +1,2 @@
+Andrew Webster: Tech Strategist by Trade, Historian by Heart.
+With 20+ years navigating the tech world, Andrew makes technology click for organizations — clear, valuable, and functional. But when he’s not wrangling Azure environments or engineering efficient systems, you’ll find him soaking in the stillness of Walhalla. He’s drawn to the grit of colonial gold mines, admiring the engineering feats and human perseverance carved into Victoria’s rugged terrain. A mind wired for systems, a soul tuned to stories.
