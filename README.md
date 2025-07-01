@@ -48,7 +48,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-# Some links to icons, pretty pictures, and important links 💬
+# Some links to icons, pretty pictures etc... 💬
 
 ## Azure Links
 Developer Portal       : https://devportal.microsoft.com<br> 
