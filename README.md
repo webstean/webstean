@@ -9,7 +9,7 @@
     <a href="https://www.linkedin.com/in/maketechwork/"><img src="https://img.shields.io/badge/-LinkedIn-2D2B55?style=flat-square&logo=linkedin&logoColor=white"/></a>
 </p>
 
-I am a cloud architect, engineer, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing the hosting of enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined, robust and production ready solution. My experence goes beyond the typical compute, network and storage, as I have been involved in several large consolidation and migration projects of Oracle and Microsoft SQL Server databases, sometimes involoving virtualisation other times in (or out) of public clouds like AWS or Azure. 
+I am a technology architect, engineer, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing the hosting of enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined, robust and production ready solution. My experence goes beyond the typical compute, network and storage, as I have been involved in several large consolidation and migration projects of Oracle and Microsoft SQL Server databases, sometimes involving virtualisation other times in (or out) of public clouds like AWS or Azure. 
 
 I enjoy with working with developers and security/cyber indivduals, to help optimise their way of working and deliver better overall outcomes ensuring both security, reliability and agility to evolve as things change.
 
@@ -17,7 +17,7 @@ I live and work in Melbourne, Australia, but over my careeer I have lived and wo
 
 [Terraform](https://developer.hashicorp.com/terraform/docs) has been my new favourite bit of tech in the last few years - solves so many "infra" challenges in a simple, elegant and intuitive way.
 
-Enjoying full Terraform support in [AZD](https://github.com/Azure/azure-dev) and [ADE](https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-extensibility-model-custom-image), that can be used together to combined infrastructure provisioning and application deployment in the same step, including during GitHub Actions / ADO Pipelines<br>
+Currentyl, I am enjoying full Terraform support in [AZD](https://github.com/Azure/azure-dev) and [ADE](https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-extensibility-model-custom-image), that can be used together to combined infrastructure provisioning and application deployment in the same step, including during GitHub Actions / ADO Pipelines -an example:- <br>
 ```shell
 ## Provision Infrastructure
 azd provision
