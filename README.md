@@ -1,6 +1,4 @@
 ### Hey there! I'm Andrew <img src="https://blog.joypixels.com/content/images/2019/06/waving_hand_sign_1024.gif" width="40px">
-
-### How to reach me
 <br>
 <a href="https://twitter.com/webstean" target="_blank">
   <img src="https://img.shields.io/badge/Twitter-@webstean-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter Badge"/>
@@ -11,7 +9,6 @@
 <a href="mailto:webstean@gmail.com">
   <img src="https://img.shields.io/badge/Email-webstean@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email Badge"/>
 </a>
-<br>
 <br>
 
 ### About Me
