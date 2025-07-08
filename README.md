@@ -9,6 +9,8 @@
     <a href="https://www.linkedin.com/in/maketechwork/"><img src="https://img.shields.io/badge/-LinkedIn-2D2B55?style=flat-square&logo=linkedin&logoColor=white"/></a>
 </p>
 
+https://img.shields.io/badge/:badgeContent
+
 ⚡ I am a IT architect, engineer, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing the hosting of enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined, robust and production ready solution. My experence goes beyond the typical compute, network and storage, as I have been involved in several large consolidation and migration projects of Oracle and Microsoft SQL Server databases, sometimes involving virtualisation other times in (or out) of public clouds like AWS or Azure. 
 
 🌱 I enjoy with working with developers and security/cyber indivduals, to help optimise their way of working and deliver better overall outcomes ensuring both security, reliability and agility to evolve as things change.
