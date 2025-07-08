@@ -205,7 +205,12 @@ resource "azuread_app_role_assignment" "github-environment-identity-group-app-re
   resource_object_id  = data.azuread_service_principal.msgraph.object_id
 }
 ```
-<script src="https://gist.github.com/webstean/f7792c2f971423591f3efe6bfd450c9a.js"></script>
+## 📄 Code Snippet
+
+View the full code on Gist:
+
+[![View Gist](https://img.shields.io/badge/View%20Gist-f7792c2f97-blue?logo=github&style=for-the-badge)](https://gist.github.com/webstean/f7792c2f971423591f3efe6bfd450c9a)
+
 <br>
 <br>
 
