@@ -58,7 +58,6 @@ Here are some ideas to get you started:
 <br>
 
 ### Some Useful Links
-<br>
 
 #### Azure Portal Links
 Developer Portal       : https://devportal.microsoft.com<br> 
