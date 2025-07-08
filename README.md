@@ -3,22 +3,22 @@
 # Hey there! I'm Andrew 👋
 <!-- <img src="wave.gif" width="26px"> -->
 
-📫 How to reach me:
+<img src="https://img.shields.io/badge/How%20to%20reach%20me-info-blue?style=plastic" alt="Static Badge" width="300">
+📫 
 <p align="left">
     <a href="https://twitter.com/webstean"><img src="https://img.shields.io/badge/-Twitter-2D2B55?style=flat-square&logo=twitter&logoColor=white"/></a>
     <a href="https://www.linkedin.com/in/maketechwork/"><img src="https://img.shields.io/badge/-LinkedIn-2D2B55?style=flat-square&logo=linkedin&logoColor=white"/></a>
 </p>
 
-![Static Badge](https://img.shields.io/badge/:About Me?style=plastic)
+<img src="https://img.shields.io/badge/About%20Me-info-blue?style=plastic" alt="Static Badge" width="200">
 
+⚡ I am a IT architect, engineer, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing the hosting of enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined, robust and production ready solution. My experence goes beyond the typical compute, network and storage, as I have been involved in several large consolidation and migration projects of Oracle and Microsoft SQL Server databases, sometimes involving virtualisation other times in (or out) of public clouds like AWS or Azure.<br> 
 
-⚡ I am a IT architect, engineer, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing the hosting of enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined, robust and production ready solution. My experence goes beyond the typical compute, network and storage, as I have been involved in several large consolidation and migration projects of Oracle and Microsoft SQL Server databases, sometimes involving virtualisation other times in (or out) of public clouds like AWS or Azure. 
+🌱 I enjoy with working with developers and security/cyber indivduals, to help optimise their way of working and deliver better overall outcomes ensuring both security, reliability and agility to evolve as things change.<br>
 
-🌱 I enjoy with working with developers and security/cyber indivduals, to help optimise their way of working and deliver better overall outcomes ensuring both security, reliability and agility to evolve as things change.
+👯 I live and work in [Melbourne, Australia](https://en.wikipedia.org/wiki/Melbourne). But over my career I have lived and worked in Singapore, Japan (Tokyo) and USA (North Carolina).<br>
 
-👯 I live and work in [Melbourne, Australia](https://en.wikipedia.org/wiki/Melbourne). But over my career I have lived and worked in Singapore, Japan (Tokyo) and USA (North Carolina).
-
-[Terraform](https://developer.hashicorp.com/terraform/docs) has been my new favourite bit of tech in the last few years - solves so many "infra" challenges in a simple, elegant and intuitive way.
+[Terraform](https://developer.hashicorp.com/terraform/docs) has been my new favourite bit of tech in the last few years - solves so many "infra" challenges in a simple, elegant and intuitive way.<br>
 
 Currently, I am enjoying full Terraform support in [AZD](https://github.com/Azure/azure-dev) and [ADE](https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-extensibility-model-custom-image), that can be used together to combined infrastructure provisioning and application deployment in the same step, including during GitHub Actions / ADO Pipelines -an example:- <br>
 ```shell
@@ -31,7 +31,7 @@ azd up
 ```
 See [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) and [here](https://learn.microsoft.com/en-us/azure/deployment-environments/) for the complete documentation
 
-## GitHub Stats
+![Static Badge](https://img.shields.io/badge/GitHub%20Stats-info-blue?style=plastic)
 
 <a href="https://github.com/webstean">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=webstean&show_icons=true&theme=shades-of-purple&count_private=true" alt="webstean's GitHub Stats" />
@@ -53,10 +53,11 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
+<br>
+<br>
+<img src="https://img.shields.io/badge/Some%20Links%20and%20Pretty%20Pictures-info-blue?style=plastic" alt="Static Badge" width="400">
 
-# Some links to icons, pretty pictures etc... 💬
-
-## Azure Links
+### Azure Links
 Developer Portal       : https://devportal.microsoft.com<br> 
 DevBox Portal          : https://devbox.microsoft.com/<br> 
 Azure Portal           : https://portal.azure.com<br>
@@ -64,13 +65,13 @@ Azure Portal           : https://portal.azure.com<br>
 *RC* Azure Portal      : http://rc.portal.azure.com/<br>
 APIM CheatSheet        : https://github.com/Azure/api-management-policy-snippets/blob/master/policy-expressions%2FREADME.md/<br>
 
-## Microsoft / Azure Icons
+### Microsoft / Azure Icons
 Azure             : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
 Power Platform    : https://learn.microsoft.com/en-us/power-platform/guidance/icons<br>
 Dynamics 365      : https://learn.microsoft.com/en-us/dynamics365/get-started/icons<br>
 Microsoft 365     : https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide<br>
 
-## Terraform 
+### Terraform 
 Terraform Awesome        : https://github.com/shuaibiyy/awesome-tf/blob/master/README.md<br>
 Provider: Azurerm        : https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs<br>
 Provider: Entra          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
