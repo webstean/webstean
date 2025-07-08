@@ -26,7 +26,7 @@ azd deploy
 ### or do both, with one step
 azd up
 ```
-See [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) and [here]() for the complete documentation
+See [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) and [here](https://learn.microsoft.com/en-us/azure/deployment-environments/) for the complete documentation
 
 ## GitHub Stats
 
