@@ -81,7 +81,7 @@ Provider: azapi          : https://registry.terraform.io/providers/hashicorp/azu
 Provider: Power Platform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 Provider: Fabric         : https://registry.terraform.io/providers/microsoft/fabric/latest<br>
 
-## **Highly Recommended** - OIDC Federation (Open ID Connect)
+## **My Top Tips** - OIDC Federation (Open ID Connect)
 When using Terraform providers as part of GitHub / Dev Ops actions / pipelines, please use OIDC Federation (OpenID Connect) for better security, that way you require no secrets or certificatres to expired or get compromised.<br>
 Specifically around GitHub (see below), but the references to the Azure Dev Ops alternatives are not hard to find.<br>
 [Setting up Terraform Azure provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_oidc)<br>
