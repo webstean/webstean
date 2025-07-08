@@ -81,9 +81,9 @@ Provider: azapi          : https://registry.terraform.io/providers/hashicorp/azu
 Provider: Power Platform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 Provider: Fabric         : https://registry.terraform.io/providers/microsoft/fabric/latest<br>
 
-## **My Top Tips** - OIDC Federation (Open ID Connect)
+## **My Top Tip** - Use OIDC Federation (Open ID Connect)
 When using Terraform providers as part of GitHub / Dev Ops actions / pipelines, please use OIDC Federation (OpenID Connect) for better security, that way you require no secrets or certificatres to expired or get compromised.<br>
-Specifically around GitHub (see below), but the references to the Azure Dev Ops alternatives are not hard to find.<br>
+This works and fully support with both GiutHub Actions and Azure DevOps (ADO) pipelines. The relevant documentation links can be found below:<br>
 [Setting up Terraform Azure provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_oidc)<br>
 [Setting up Terraform Entra ID provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azuread/latest/docs/guides/service_principal_oidc)<br>
 [Setting up Terraform Power Platform provider to use OIDC Federation](https://registry.terraform.io/providers/microsoft/power-platform/latest/docs#authenticating-to-power-platform-using-a-service-principal-with-oidc)<br>
@@ -124,7 +124,8 @@ resource "azurerm_federated_identity_credential" "example_federation" {
 ```
 If you've read this far, you might be asking Q: Isn't a User Assigned Identities a bit limiting? You cannot give them access to read Microsoft Graph and therefore they cannot read users, groups or applications, like when trying to authenticate users via easy auth etc...<br>
 > [!IMPORTANT]
-> But actually whilst it is *NOT possible* to add Graph permissions to a Entra Service Principal in the Azure portal, it can be done via the API. And, in terraform, you achieve this will the folowing:<br>
+> Whilst it is *NOT possible* to add Microsoft Graph permissions to an Entra ID Service Principals in the Azure portal, you can done it via the API.
+> And, in terraform, you achieve this will the folowing:<br>
 ## System Assigned Identies - MS Graph permissions
 ```hcl
 data "azuread_application_published_app_ids" "well_known" {}
