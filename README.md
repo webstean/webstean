@@ -2,16 +2,22 @@
 
 # Hey there! I'm Andrew 👋
 <!-- <img src="wave.gif" width="26px"> -->
-
-<img src="https://img.shields.io/badge/How%20to%20reach%20me-info-blue?style=plastic" alt="Static Badge" width="300">
-📫 
-<p align="left">
-    <a href="https://twitter.com/webstean"><img src="https://img.shields.io/badge/-Twitter-2D2B55?style=flat-square&logo=twitter&logoColor=white"/></a>
-    <a href="https://www.linkedin.com/in/maketechwork/"><img src="https://img.shields.io/badge/-LinkedIn-2D2B55?style=flat-square&logo=linkedin&logoColor=white"/></a>
-</p>
-
-<img src="https://img.shields.io/badge/About%20Me-info-blue?style=plastic" alt="Static Badge" width="200">
-
+<br>
+<img src="https://img.shields.io/badge/info-How%20to%20reach%20me-blue?style=plastic" alt="Static Badge" width="300">
+<br>
+<a href="https://twitter.com/webstean" target="_blank">
+  <img src="https://img.shields.io/badge/Twitter-@webstean-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter Badge"/>
+</a>
+<a href="https://www.linkedin.com/in/maketechwork/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-MakeTechWork-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn Badge"/>
+</a>
+<a href="mailto:webstean@gmail.com">
+  <img src="https://img.shields.io/badge/Email-webstean@gmail.com-D14836?style=flat&logo=gmail&logoColor=white" alt="Email Badge"/>
+</a>
+<br>
+<br>
+<img src="https://img.shields.io/badge/info-About%20Me-blue?style=plastic" alt="Static Badge" width="200">
+<br>
 ⚡ I am a IT architect, engineer, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing the hosting of enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined, robust and production ready solution. My experence goes beyond the typical compute, network and storage, as I have been involved in several large consolidation and migration projects of Oracle and Microsoft SQL Server databases, sometimes involving virtualisation other times in (or out) of public clouds like AWS or Azure.<br> 
 
 🌱 I enjoy with working with developers and security/cyber indivduals, to help optimise their way of working and deliver better overall outcomes ensuring both security, reliability and agility to evolve as things change.<br>
@@ -31,7 +37,7 @@ azd up
 ```
 See [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) and [here](https://learn.microsoft.com/en-us/azure/deployment-environments/) for the complete documentation
 
-![Static Badge](https://img.shields.io/badge/GitHub%20Stats-info-blue?style=plastic)
+<img src="https://img.shields.io/badge/info-My%20GitHub%20Stats-blue?style=plastic" alt="Static Badge" width="200">
 
 <a href="https://github.com/webstean">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=webstean&show_icons=true&theme=shades-of-purple&count_private=true" alt="webstean's GitHub Stats" />
@@ -55,9 +61,9 @@ Here are some ideas to get you started:
 -->
 <br>
 <br>
-<img src="https://img.shields.io/badge/Some%20Links%20and%20Pretty%20Pictures-info-blue?style=plastic" alt="Static Badge" width="400">
+<img src="https://img.shields.io/badge/info-Some%20Useful%20Links-blue?style=plastic" alt="Static Badge" width="200">
 
-### Azure Links
+#### Azure Portal Links
 Developer Portal       : https://devportal.microsoft.com<br> 
 DevBox Portal          : https://devbox.microsoft.com/<br> 
 Azure Portal           : https://portal.azure.com<br>
@@ -65,13 +71,13 @@ Azure Portal           : https://portal.azure.com<br>
 *RC* Azure Portal      : http://rc.portal.azure.com/<br>
 APIM CheatSheet        : https://github.com/Azure/api-management-policy-snippets/blob/master/policy-expressions%2FREADME.md/<br>
 
-### Microsoft / Azure Icons
+#### Microsoft / Azure Icons
 Azure             : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
 Power Platform    : https://learn.microsoft.com/en-us/power-platform/guidance/icons<br>
 Dynamics 365      : https://learn.microsoft.com/en-us/dynamics365/get-started/icons<br>
 Microsoft 365     : https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide<br>
 
-### Terraform 
+#### Terraform 
 Terraform Awesome        : https://github.com/shuaibiyy/awesome-tf/blob/master/README.md<br>
 Provider: Azurerm        : https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs<br>
 Provider: Entra          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
