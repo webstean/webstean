@@ -1,10 +1,6 @@
-### Hi there 👋
+### Hey there! I'm Andrew <img src="https://blog.joypixels.com/content/images/2019/06/waving_hand_sign_1024.gif" width="40px">
 
-# Hey there! I'm Andrew 👋
-<img src="wave.gif" width="26px">
-<br>
-<img src="https://img.shields.io/badge/info-How%20to%20reach%20me-blue.png?style=plastic" alt="Static Badge" width="300">
-
+### How to reach me
 <br>
 <a href="https://twitter.com/webstean" target="_blank">
   <img src="https://img.shields.io/badge/Twitter-@webstean-1DA1F2?style=flat&logo=twitter&logoColor=white" alt="Twitter Badge"/>
@@ -17,7 +13,8 @@
 </a>
 <br>
 <br>
-<img src="https://img.shields.io/badge/info-About%20Me-blue?style=plastic" alt="Static Badge" width="200">
+
+### About Me
 <br>
 ⚡ I am a IT architect, engineer, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing the hosting of enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined, robust and production ready solution. My experence goes beyond the typical compute, network and storage, as I have been involved in several large consolidation and migration projects of Oracle and Microsoft SQL Server databases, sometimes involving virtualisation other times in (or out) of public clouds like AWS or Azure.<br> 
 
@@ -38,8 +35,8 @@ azd up
 ```
 See [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) and [here](https://learn.microsoft.com/en-us/azure/deployment-environments/) for the complete documentation
 
-<img src="https://img.shields.io/badge/info-My%20GitHub%20Stats-blue?style=plastic" alt="Static Badge" width="200">
-
+### Some GitHub States
+<br>
 <a href="https://github.com/webstean">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=webstean&show_icons=true&theme=shades-of-purple&count_private=true" alt="webstean's GitHub Stats" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=webstean&theme=shades-of-purple&layout=compact" 
@@ -62,7 +59,9 @@ Here are some ideas to get you started:
 -->
 <br>
 <br>
-<img src="https://img.shields.io/badge/info-Some%20Useful%20Links-blue?style=plastic" alt="Static Badge" width="200">
+
+### Some Useful Links
+<br>
 
 #### Azure Portal Links
 Developer Portal       : https://devportal.microsoft.com<br> 
@@ -85,7 +84,6 @@ Provider: Entra          : https://registry.terraform.io/providers/hashicorp/azu
 Provider: azapi          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
 Provider: Power Platform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 Provider: Fabric         : https://registry.terraform.io/providers/microsoft/fabric/latest<br>
-
 
 ## **Highly Recommended** - OIDC Federation (Open ID Connect)
 When using Terraform providers as part of GitHub / Dev Ops actions / pipelines, please use OIDC Federation (OpenID Connect) for better security, that way you require no secrets or certificatres to expired or get compromised.<br>
