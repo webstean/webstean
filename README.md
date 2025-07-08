@@ -11,7 +11,7 @@
 </a>
 <br>
 
-### About Me
+## 📄 About Me
 <br>
 ⚡ I am a IT architect, engineer, mentor, and cloud advocate with over 20 years professional experience. I specialise in designing the hosting of enterprise applications and solutions, principally in the Azure Cloud. I love a challenge and I'm skilled at progressing from a simple proposal into a well-defined, robust and production ready solution. My experence goes beyond the typical compute, network and storage, as I have been involved in several large consolidation and migration projects of Oracle and Microsoft SQL Server databases, sometimes involving virtualisation other times in (or out) of public clouds like AWS or Azure.<br> 
 
@@ -32,7 +32,7 @@ azd up
 ```
 See [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) and [here](https://learn.microsoft.com/en-us/azure/deployment-environments/) for the complete documentation
 
-### Some GitHub States
+## 📄 Some GitHub States
 <br>
 <a href="https://github.com/webstean">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=webstean&show_icons=true&theme=shades-of-purple&count_private=true" alt="webstean's GitHub Stats" />
@@ -57,7 +57,7 @@ Here are some ideas to get you started:
 <br>
 <br>
 
-### Some Useful Links
+## 📄 Some Useful Links
 
 #### Azure Portal Links
 Developer Portal       : https://devportal.microsoft.com<br> 
@@ -81,7 +81,7 @@ Provider: azapi          : https://registry.terraform.io/providers/hashicorp/azu
 Provider: Power Platform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 Provider: Fabric         : https://registry.terraform.io/providers/microsoft/fabric/latest<br>
 
-## **My Top Tip** - Use OIDC Federation (Open ID Connect)
+## 📄 **My Top Tip** - Use OIDC Federation (Open ID Connect)
 When using Terraform providers as part of GitHub / Dev Ops actions / pipelines, please use OIDC Federation (OpenID Connect) for better security, that way you require no secrets or certificatres to expired or get compromised.<br>
 This works and fully support with both GiutHub Actions and Azure DevOps (ADO) pipelines. The relevant documentation links can be found below:<br>
 [Setting up Terraform Azure provider to use OIDC Federation](https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs/guides/service_principal_oidc)<br>
