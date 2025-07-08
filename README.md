@@ -17,9 +17,9 @@
 
 🌱 I enjoy with working with developers and security/cyber indivduals, to help optimise their way of working and deliver better overall outcomes ensuring both security, reliability and agility to evolve as things change.<br>
 
-👯 I live and work in [Melbourne, Australia](https://en.wikipedia.org/wiki/Melbourne). But over my career I have lived and worked in Singapore, Japan (Tokyo) and USA (North Carolina).<br>
+👯 I live and work in [Melbourne, Australia](https://en.wikipedia.org/wiki/Melbourne). But over my career I have lived and worked in [Singapore](https://en.wikipedia.org/wiki/Singapore), [Tokyo, Japan](https://en.wikipedia.org/wiki/Tokyo) and [North Carolina, USA](https://en.wikipedia.org/wiki/North_Carolina).<br>
 
-[Terraform](https://developer.hashicorp.com/terraform/docs) has been my new favourite bit of tech in the last few years - solves so many "infra" challenges in a simple, elegant and intuitive way.<br>
+[Terraform](https://developer.hashicorp.com/terraform/docs) has been my new favourite bit of tech in the last few years - solves so many "infra" challenges in a simple, elegant and intuitive way.<br> I just love how I can deploy totally repeatable infrastructure accorss multiple cloud regions. I've even used to managed VMware ESXi clusters.
 
 Currently, I am enjoying the full Terraform support in [AZD](https://github.com/Azure/azure-dev) and [ADE](https://learn.microsoft.com/en-us/azure/deployment-environments/how-to-configure-extensibility-model-custom-image), that can be used together to combined infrastructure provisioning and application deployment in the same step. This is particularly useful during GitHub Actions / ADO Pipelines -as an example:- <br>
 ```shell
