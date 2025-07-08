@@ -3,7 +3,7 @@
 # Hey there! I'm Andrew 👋
 <img src="wave.gif" width="26px">
 <br>
-<img src="https://img.shields.io/badge/info-How%20to%20reach%20me-blue?style=plastic" alt="Static Badge" width="300" style="pointer-events: none;">
+<img src="https://img.shields.io/badge/info-How%20to%20reach%20me-blue.png?style=plastic" alt="Static Badge" width="300">
 
 <br>
 <a href="https://twitter.com/webstean" target="_blank">
