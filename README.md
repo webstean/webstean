@@ -80,6 +80,7 @@ Provider: Entra          : https://registry.terraform.io/providers/hashicorp/azu
 Provider: azapi          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
 Provider: Power Platform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 Provider: Fabric         : https://registry.terraform.io/providers/microsoft/fabric/latest<br>
+Azure Verified Modules   : https://azure.github.io/Azure-Verified-Modules/<br>
 
 ## 📄 **My Top Tip** - Use OIDC Federation (Open ID Connect)
 When using Terraform providers as part of GitHub / Dev Ops actions / pipelines, please use OIDC Federation (OpenID Connect) for better security, that way you require no secrets or certificatres to expired or get compromised.<br>
