@@ -139,7 +139,7 @@ data "azuread_service_principal" "msgraph" {
   client_id = data.azuread_application_published_app_ids.well_known.result["MicrosoftGraph"]
 }
 
-resource "azuread_app_role_assignment" "sqlserver_example_user_read_all" {
+resource "azuread_app_role_assignment" "sqlserver_system_identity_graph_user_read_all" {
   app_role_id         = data.azuread_service_principal.msgraph.app_role_ids["User.Read.All"]
   principal_object_id = data.azurerm_mssql_server.identity[0].principal_id
   resource_object_id  = data.azuread_service_principal.msgraph.object_id
@@ -160,6 +160,8 @@ resource "azuread_app_role_assignment" "sqlserver_system_identity_graph_applicat
   resource_object_id  = data.azuread_service_principal.msgraph.object_id
 }
 ```
+For example, you can assigned this system assigned identity of an Azure SQL Server, and then the server can use managed identity to managed access to the database, since the user assigned identity give it enough access to read Entra ID users, group (including group members) and applications. Read more about this [here](https://learn.microsoft.com/en-us/azure/azure-sql/database/authentication-azure-ad-user-assigned-managed-identity?view=azuresql)
+
 but, even better you can use:<br>
 ## User Assigned Identies - MS Graph permissions
 This gives you the ultimate in flexibility as you can apply these permission accross multiple resources, which ultimately requires less code to build and maintain.<br>
@@ -206,7 +208,6 @@ resource "azuread_app_role_assignment" "github-environment-identity-group-app-re
   resource_object_id  = data.azuread_service_principal.msgraph.object_id
 }
 ```
-For example, you can assigned this user assigned idenitty to Azure SQL Server, and then the server can use managed identity to managed access to the database, since the user assigned identity give it enough access to read Entra ID users, group (including group members) and applications.
 
 ## 📄 Code Snippet
 
