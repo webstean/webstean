@@ -206,6 +206,8 @@ resource "azuread_app_role_assignment" "github-environment-identity-group-app-re
   resource_object_id  = data.azuread_service_principal.msgraph.object_id
 }
 ```
+For example, you can assigned this user assigned idenitty to Azure SQL Server, and then the server can use managed identity to managed access to the database, since the user assigned identity give it enough access to read Entra ID users, group (including group members) and applications.
+
 ## 📄 Code Snippet
 
 View the full code on Gist:
