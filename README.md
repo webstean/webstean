@@ -123,9 +123,9 @@ resource "azurerm_federated_identity_credential" "example_federation" {
   subject             = "repo:${each.value.full_name}:environment:${var.environment_name}" ## this is for the environment, but you use branch (such as main)
 }
 ```
-If you've read this far, you might be asking Q: Isn't a User Assigned Identities a bit limiting? You cannot give them access to read Microsoft Graph and therefore they cannot read users, groups or applications, like when trying to authenticate users via easy auth etc...<br>
+If you've read this far, you might be asking Q: Isn't a User Assigned Identities a bit limiting? You cannot give them access to read Microsoft Graph and therefore they cannot read users, groups or applications, like when trying to authenticate users via easy auth or for SQL Server etc...<br>
 > [!IMPORTANT]
-> Whilst it is *NOT possible* to add Microsoft Graph permissions to an Entra ID Service Principals in the Azure portal, you can done it via the API.
+> Whilst it is *NOT possible* to add Microsoft Graph permissions to an Entra ID Service Principal (such as a Managed Identity) in the Azure portal, it can done it via the API.
 > And, in terraform, you achieve this will the folowing:<br>
 ## System Assigned Identies - MS Graph permissions
 ```hcl
