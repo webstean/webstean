@@ -32,6 +32,7 @@ azd up
 ```
 See [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/) and [here](https://learn.microsoft.com/en-us/azure/deployment-environments/) for the complete documentation
 
+<!---
 ## 📄 Some GitHub States
 <br>
 <a href="https://github.com/webstean">
@@ -39,6 +40,7 @@ See [here](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=webstean&theme=shades-of-purple&layout=compact" 
     alt="Andrew Webster GitHub Top Languages" />
 </a>
+-->
 
 <!--
 **webstean/webstean** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -79,7 +81,7 @@ Microsoft 365     : https://learn.microsoft.com/en-us/microsoft-365/solutions/ar
 #### Terraform 
 Terraform Awesome        : https://github.com/shuaibiyy/awesome-tf/blob/master/README.md<br>
 Provider: Azurerm        : https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs<br>
-Provider: Entra          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
+Provider: Entra          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs  (future seccessor: https://registry.terraform.io/providers/microsoft/msgraph/latest <br>
 Provider: azapi          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
 Provider: Power Platform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 Provider: Fabric         : https://registry.terraform.io/providers/microsoft/fabric/latest<br>
