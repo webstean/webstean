@@ -59,13 +59,16 @@ Here are some ideas to get you started:
 
 ## 📄 Some Useful Links
 
+#### API Examples etc..
+Public APIs            : https://github.com/public-apis/public-apis<br>
+APIM CheatSheet        : https://github.com/Azure/api-management-policy-snippets/blob/master/policy-expressions%2FREADME.md/<br>
+
 #### Azure Portal Links
 Developer Portal       : https://devportal.microsoft.com<br> 
 DevBox Portal          : https://devbox.microsoft.com/<br> 
 Azure Portal           : https://portal.azure.com<br>
-*Preview* Azure Portal : http://preview.portal.azure.com/<br>
-*RC* Azure Portal      : http://rc.portal.azure.com/<br>
-APIM CheatSheet        : https://github.com/Azure/api-management-policy-snippets/blob/master/policy-expressions%2FREADME.md/<br>
+*Preview* Azure Portal : https://preview.portal.azure.com/<br>
+*RC* Azure Portal      : https://rc.portal.azure.com/<br>
 
 #### Microsoft / Azure Icons
 Azure             : https://learn.microsoft.com/en-us/azure/architecture/icons/<br>
