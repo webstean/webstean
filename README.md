@@ -78,10 +78,14 @@ Power Platform    : https://learn.microsoft.com/en-us/power-platform/guidance/ic
 Dynamics 365      : https://learn.microsoft.com/en-us/dynamics365/get-started/icons<br>
 Microsoft 365     : https://learn.microsoft.com/en-us/microsoft-365/solutions/architecture-icons-templates?view=o365-worldwide<br>
 
+#### Microsoft / Azure Documentation
+Tracker           : https://msdocstracker.com/<br>
+Main Page         : https://learn.microsoft.com<br>
+
 #### Terraform 
 Terraform Awesome        : https://github.com/shuaibiyy/awesome-tf/blob/master/README.md<br>
 Provider: Azurerm        : https://registry.terraform.io/providers/hashicorp/azurerm/latest/docs<br>
-Provider: Entra          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs  (future seccessor: https://registry.terraform.io/providers/microsoft/msgraph/latest <br>
+Provider: Entra          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs  (future (now in beta): https://registry.terraform.io/providers/microsoft/msgraph/latest <br>
 Provider: azapi          : https://registry.terraform.io/providers/hashicorp/azuread/latest/docs<br>
 Provider: Power Platform : https://registry.terraform.io/providers/microsoft/power-platform/latest/docs<br>
 Provider: Fabric         : https://registry.terraform.io/providers/microsoft/fabric/latest<br>
